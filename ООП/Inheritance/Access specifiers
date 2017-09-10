@@ -1,0 +1,14 @@
+From StackOverflow
+
+class Base
+
+public: can be accessed by anybody
+private: can only be accessed by only base member functions (not derived classes)
+protected: can be accessed by both base member functions and derived classes
+
+
+Access                      public     protected    private
+-----------------------------------------------------------
+members of the same class      yes           yes        yes
+members of derived classes     yes           yes         no
+not members                    yes            no         no
